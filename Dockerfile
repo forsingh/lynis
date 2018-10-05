@@ -1,7 +1,7 @@
 FROM alpine:3.7
 MAINTAINER Damien DUPORTAL <damien.duportal@gmail.com>
 
-ENV LYNIS_VERSION 2.6.4
+ENV LYNIS_VERSION 2.6.9
 
 RUN apk --update add bash curl openssl \
 	&& curl -L -o /tmp/lynis.tgz \
